@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7E1E1E"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/views"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
+            android:layout_marginBottom="1pt"
+            android:autofillHints=""
+            android:inputType="numberDecimal"
+            android:textAlignment="textEnd"
+            android:textColor="#A1887F"
+            android:textSize="30pt"
+            tools:ignore="DuplicateSpeakableTextCheck,LabelFor,VisualLintTextFieldSize"
+            tools:text="0" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginBottom="1pt"
+            android:autofillHints=""
+            android:inputType="numberDecimal"
+            android:textAlignment="textEnd"
+            android:textColor="#A1887F"
+            android:textSize="20pt"
+            tools:ignore="LabelFor,VisualLintTextFieldSize"
+            tools:text="0" />
+    </LinearLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1pt"
+            tools:ignore="UselessParent">
+
+            <Button
+                android:id="@+id/buAC"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/buAC"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/buC"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/buC"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize"></Button>
+
+            <Button
+                android:id="@+id/buDivide"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/budivide"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize"></Button>
+
+            <Button
+                android:id="@+id/buMultiply"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/bumultiply"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize"></Button>
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bu7"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/buseven"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize"></Button>
+
+            <Button
+                android:id="@+id/bu8"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/bueight"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize"></Button>
+
+            <Button
+                android:id="@+id/bu9"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/bunine"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize"></Button>
+
+            <Button
+                android:id="@+id/buplus"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/buplus"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bu4"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/bufour"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize"></Button>
+
+            <Button
+                android:id="@+id/bu5"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/bufive"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize"></Button>
+
+            <Button
+                android:id="@+id/bu6"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/busix"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize"></Button>
+
+            <Button
+                android:id="@+id/buminus"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/buminus"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bu1"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/buone"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize"></Button>
+
+            <Button
+                android:id="@+id/bu2"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/butwo"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize"></Button>
+
+            <Button
+                android:id="@+id/bu3"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/buthree"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize"></Button>
+
+            <Button
+                android:id="@+id/bumodulus"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/bumodulus"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bu0"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/buzero"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize"></Button>
+
+            <Button
+                android:id="@+id/budot"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/budot"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize"></Button>
+
+            <Button
+                android:id="@+id/buequals"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/buequals"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/bumemoryadd"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/bumemoryadd"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bumemoryclear"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/bumemoryclear"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize"></Button>
+
+            <Button
+                android:id="@+id/bumemoryrecall"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginEnd="2pt"
+                android:layout_weight="1"
+                android:text="@string/bumemoryrecall"
+                android:textColor="#E040FB"
+                android:textSize="20sp"
+                tools:ignore="VisualLintButtonSize" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>
